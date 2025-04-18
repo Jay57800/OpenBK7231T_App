@@ -13,7 +13,7 @@
 // Defines for drivers from drv_main.c: ENABLE_DRIVER_*
 // Other defines: ENABLE_* , for example: ENABLE_LED_BASIC
 
-#define ENABLE_HLW8112 1
+#define ENABLE_HLW8112  1
 #define ENABLE_HTTP_MQTT		1
 #define ENABLE_HTTP_IP			1
 #define ENABLE_HTTP_WEBAPP		1
