@@ -12,6 +12,7 @@
 // Defines for drivers from drv_main.c: ENABLE_DRIVER_*
 // Other defines: ENABLE_* , for example: ENABLE_LED_BASIC
 
+#define ENABLE_HLW8112 1
 #define ENABLE_HTTP_MQTT		1
 #define ENABLE_HTTP_IP			1
 #define ENABLE_HTTP_WEBAPP		1
@@ -24,6 +25,7 @@
 
 #if PLATFORM_XR809
 
+#define ENABLE_HLW8112 1
 #define ENABLE_MQTT 1
 #define NO_CHIP_TEMPERATURE			1
 #define OBK_DISABLE_ALL_DRIVERS		1
@@ -32,6 +34,7 @@
 
 // parse things like $CH1 or $hour etc
 #define ENABLE_EXPAND_CONSTANT	1
+#define ENABLE_HLW8112 1
 #define ENABLE_DRIVER_BMP280 1
 #define	ENABLE_HA_DISCOVERY		1
 #define ENABLE_DRIVER_AHT2X		1
@@ -51,6 +54,7 @@
 #elif PLATFORM_W800
 
 // parse things like $CH1 or $hour etc
+#define ENABLE_HLW8112 1
 #define ENABLE_EXPAND_CONSTANT	1
 #define	ENABLE_HA_DISCOVERY		1
 #define ENABLE_DRIVER_OPENWEATHERMAP	1
@@ -79,7 +83,7 @@
 
 #endif
 
-
+#define ENABLE_HLW8112 1
 #define	ENABLE_DRIVER_PIR		1
 #define	ENABLE_HA_DISCOVERY		1
 #define ENABLE_SEND_POSTANDGET		1
@@ -142,6 +146,7 @@
 #define	ENABLE_HA_DISCOVERY		1
 // I have enabled drivers on BL602
 #define ENABLE_MQTT 1
+#define ENABLE_HLW8112 1
 #define ENABLE_TASMOTADEVICEGROUPS 1
 #define ENABLE_LITTLEFS			1
 #define ENABLE_NTP    1
@@ -168,6 +173,7 @@
 
 #elif PLATFORM_BEKEN
 
+#define ENABLE_HLW8112 1
 #define	ENABLE_HA_DISCOVERY		1
 #define ENABLE_SEND_POSTANDGET		1
 #define ENABLE_MQTT 1
@@ -309,8 +315,10 @@
 #define ENABLE_DRIVER_SSDP						1
 #define ENABLE_OBK_SCRIPTING					1
 #define ENABLE_ADVANCED_CHANNELTYPES_DISCOVERY	1
+#define ENABLE_HLW8112 1
 
 #define OBK_OTA_EXTENSION 						".img"
+#define ENABLE_HLW8112 1
 
 #elif PLATFORM_RTL87X0C
 
